@@ -31,7 +31,7 @@ $(document).ready(function () {
         $returnLink.toggle();
 
         $('html,body').animate({
-            scrollTop: $(window).scrollTop() + block.height() / 2
+            scrollTop: $(window).scrollTop() + $block.height() / 2
         })
     }
 

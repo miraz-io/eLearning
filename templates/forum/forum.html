@@ -19,7 +19,7 @@
 
       <button class="btn btn-success add-btn">New Topic</button>
       <div class="col-md-6 add-topic">
-        <form method='POST' action="" role="form">
+        <form method='POST' action="" role="form" novalidate>
           {% csrf_token %}
           <a class="glyphicon glyphicon-arrow-left return-link"></a>
           {{ add_new_topic_form | crispy }}

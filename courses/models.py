@@ -17,7 +17,7 @@ class Course(models.Model):
     students = models.ManyToManyField(UserProfile, related_name='students_to_course')
     for_everybody = models.BooleanField(default=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.course_name
 
 
@@ -27,7 +27,7 @@ class Chapter(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE, default=1)
     slug = models.SlugField(unique=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.chapter_name
 
     def get_absolute_url(self):
