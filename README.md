@@ -1,4 +1,6 @@
-﻿# Introduction
+﻿#Fork project from https://github.com/avuletica/eLearning
+ 
+ # Introduction
 Project was created by participating team in extension engine spring camp.
 E-Learning is scalable web application written in python (django).
 E-Learning was designed to provide pleasant experience for users.
@@ -7,7 +9,7 @@ E-Learning was designed to provide pleasant experience for users.
 Assuming you use virtualenv, follow these steps to download and run the
 e-learning application in this directory:
 
-    $ git clone https://github.com/avuletica/eLearning.git
+    $ git clone https://github.com/miraz-io/eLearning.git
     $ cd eLearning
     $ virtualenv venv
     $ source ./venv/bin/activate
@@ -22,8 +24,8 @@ e-learning application in this directory:
     * Visit http://127.0.0.1:8000/
 
 # Compatibility
-* Python 2.7
-* Django 1.9
+* Python 3.6
+* Django 1.11
 * SQLite, PostgreSQL, MySQL
 
 # Notes
